@@ -1,0 +1,55 @@
+body {
+  width: 98%;
+  max-width: 1220px;
+  margin: 0 auto;
+}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+a {
+  padding: 15px;
+  display: inline-block;
+  text-decoration: none;
+  color: teal;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: cursive;
+}
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  text-align: center;
+}
+h1,
+h2 {
+  text-align: center;
+  margin: 30px auto;
+}
+.td {
+  width: 10%;
+  padding: 10px 0;
+}
+td:first-child {
+  padding: 10px 10px;
+}
+thead {
+  font-weight: bold;
+  background-color: salmon;
+  /* color: #fff; */
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 98%;
+}
+thead td {
+  border: 2px solid white;
+}
+/* tbody td:nth-child(even) {
+  background-color: bisque;
+} */
+tbody tr:nth-child(even) {
+  background-color: rgb(209, 209, 208);
+}
